@@ -1,0 +1,13 @@
+spring:
+  devtools:
+    restart:
+      enabled: true
+  datasource:
+    url: jdbc:mysql://localhost:3305/springbootdb?serverTimezone=UTC&useUnicode=true&characterEncoding=utf-8&useSSL=true
+    username: root
+    password: 123456
+    driver-class-name: com.mysql.cj.jdbc.Driver
+mybatis:
+  type-aliases-package: com.springbootmybatisstater.model
+
+
